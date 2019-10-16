@@ -197,7 +197,7 @@ When the client makes a `PUT` request to `/api/posts/:id`:
 
 ## Stretch Problems
 
-To work on the stretch problems you'll need to enable the `cors` middleware. Follow these steps:
+To work on the stretch problems you will need to enable the `cors` middleware. Follow these steps:
 
 - add the `cors` npm module: `npm i cors`.
 - add `server.use(cors())` after `server.use(express.json())`.
